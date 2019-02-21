@@ -78,6 +78,8 @@ else
     disp('###### The reverberant (no noise) speech is x ...');
 end
 
+% if you already have your own reverberant speech signal (assign to y), please start from here!!!
+
 
 %% Auditory-inspired feature extraction
 auditory_feature = calculate_auditory_feature( y, fs_ref );
