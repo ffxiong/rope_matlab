@@ -27,7 +27,7 @@
 clear;
 
 %% Global parameters
-kaldi_src = '/data/ac1fx/software/sharc/kaldi/src'; % please specify your Kaldi /src path!!!
+kaldi_src = '/YourKaldiPath/src'; % please specify your Kaldi /src path!!!
 
 addpath('functions/');
 fs_ref = 16000; % referance sampling frequency
